@@ -15,6 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/dice_image"
         app:srcCompat="@drawable/empty_dice"
         tools:src="@drawable/dice_1" />
 
@@ -23,14 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        app:srcCompat="@drawable/empty_dice"
-        tools:src="@drawable/dice_1" />
-
-    <ImageView
-        android:id="@+id/dice_image2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/dice_image"
         app:srcCompat="@drawable/empty_dice"
         tools:src="@drawable/dice_1" />
 
@@ -40,6 +34,5 @@
         android:layout_height="wrap_content"
         android:text="@string/roll_label"
         android:layout_gravity="center_horizontal" />
-
 
 </LinearLayout>

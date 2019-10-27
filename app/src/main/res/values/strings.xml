@@ -3,4 +3,5 @@
     <string name="roll_label">Roll</string>
     <string name="add_label">Count up</string>
     <string name="add_number">Total</string>
+    <string name="dice_image">dice image</string>
 </resources>

@@ -33,11 +33,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun rollDice() {
-        Toast.makeText(
-            this, "Button Clicked",
-            Toast.LENGTH_SHORT
-        ).show()
-
         diceImage.setImageResource(getRandomDiceImage())
         diceImage2.setImageResource(getRandomDiceImage())
 /*
