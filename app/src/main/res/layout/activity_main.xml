@@ -26,29 +26,13 @@
         app:srcCompat="@drawable/empty_dice"
         tools:src="@drawable/dice_1" />
 
-<!--    <TextView
-        android:id="@+id/result_text"
+    <ImageView
+        android:id="@+id/dice_image2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:textSize="30sp"
-        android:text="@string/app_name" />
-
-    <TextView
-        android:id="@+id/result2_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textSize="30sp"
-        android:text="@string/app_name" />
-
-    <TextView
-        android:id="@+id/result3_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textSize="30sp"
-        android:text="@string/app_name" />-->
+        app:srcCompat="@drawable/empty_dice"
+        tools:src="@drawable/dice_1" />
 
     <Button
         android:id="@+id/roll_button"
@@ -57,26 +41,5 @@
         android:text="@string/roll_label"
         android:layout_gravity="center_horizontal" />
 
-<!--    <Button
-        android:id="@+id/add_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/add_label"
-        android:layout_gravity="center_horizontal" />
-
-    <Button
-        android:id="@+id/total_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/add_number"
-        android:layout_gravity="center_horizontal" />
-
-    <TextView
-        android:id="@+id/total_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textSize="30sp"
-        android:text="Total" />-->
 
 </LinearLayout>
